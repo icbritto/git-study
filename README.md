@@ -58,7 +58,7 @@ git status
 
 If that returns something like that, then its all Ok.
 
-```
+```bash
 On branch main
 
 No commits yet
