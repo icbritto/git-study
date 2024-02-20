@@ -28,4 +28,46 @@ Or you can also take a look into the git docmentation (you don't have to be conn
 
 ```bash
 git config -h
+
+# and if you want more detailed information about an especific command,use this one and just add the command to end
+git help config
 ```
+
+## Initialize Git
+
+Choose the directory you want to turn into a Git repository.
+
+```bash
+# example
+cd C:\User\YOURUSER\Documents\git-study
+```
+
+And now that your're into the directory, you can initialize a respository using
+
+```bash
+git init
+```
+
+Now if look at your directory you will see that you have a `.git` directory. This means that everything has gone correctly.
+
+But anyway, lets check if everything has really gone Ok by simply running
+
+```bash
+git status
+```
+
+If that returns something like that, then its all Ok.
+
+```
+On branch main
+
+No commits yet
+
+Untracked files:
+    (use "git add <file>..." to include in what will be committed)
+        index.html
+        README.md
+
+nothing added to commit but untracked files present (use "git add" to track)
+```
+
